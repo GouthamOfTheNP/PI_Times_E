@@ -8,3 +8,7 @@ for i in range(len(pi_str)):
     if i != 0:
         num /=  10*i
     new_number_list.append(num)
+
+new_number = 0
+for j in new_number_list:
+    new_number += j
